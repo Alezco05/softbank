@@ -1,0 +1,96 @@
+/* Container Styles */
+.client-list-container {
+    margin: 20px;
+    padding: 15px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    gap: 20px;
+  }
+  
+  /* List Styles */
+  .client-list {
+    flex: 1;
+  }
+  
+  .client-list h2 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: #1a73e8;
+  }
+  
+  .client-list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  /* Individual Client Item */
+  .client-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 16px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+  }
+  
+  .client-item:hover {
+    background-color: #e3f2fd; /* Light blue hover */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .client-item.selected {
+    background-color: #c8e6c9; /* Light green for selected */
+    border-color: #66bb6a;
+    font-weight: bold;
+  }
+  
+  /* Client Name */
+  .client-name {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Account Info */
+  .account-info {
+    font-size: 0.9rem;
+    color: #555;
+  }
+  
+  /* Account Details Section */
+  .account-details {
+    flex: 2;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fafafa;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  }
+  
+  .account-details p {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  .account-details h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #1a73e8;
+  }
+  
+  .account-details span {
+    display: block;
+    font-size: 0.95rem;
+    margin: 5px 0;
+    color: #444;
+  }
+  

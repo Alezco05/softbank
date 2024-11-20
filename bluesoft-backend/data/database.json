@@ -1,0 +1,51 @@
+{
+    "clients": [
+      {
+        "id": 1,
+        "name": "Carlos Pérez",
+        "accounts": [
+          {
+            "id": 101,
+            "type": "savings",
+            "balance": 5000,
+            "transactions": [
+              { "id": 1, "type": "deposit", "amount": 2000, "date": "2024-01-01" },
+              { "id": 2, "type": "withdrawal", "amount": 500, "date": "2024-01-05" }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Ana Gómez",
+        "accounts": [
+          {
+            "id": 102,
+            "type": "current",
+            "balance": 3000,
+            "transactions": [
+              { "id": 3, "type": "deposit", "amount": 1000, "date": "2024-01-03" },
+              { "id": 4, "type": "withdrawal", "amount": 300, "date": "2024-01-06" }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Luis Martínez",
+        "accounts": [
+          {
+            "id": 103,
+            "type": "savings",
+            "balance": 10000,
+            "transactions": [
+              { "id": 5, "type": "deposit", "amount": 5000, "date": "2024-01-07" },
+              { "id": 6, "type": "withdrawal", "amount": 2000, "date": "2024-01-08" },
+              { "id": 7, "type": "withdrawal", "amount": 1200000, "date": "2024-01-10", "outOfCity": true }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

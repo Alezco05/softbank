@@ -1,0 +1,47 @@
+.reports-container {
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+    margin-top: 2rem;
+  }
+  
+  .report-section {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    flex: 1;
+  }
+  
+  .report-section h3 {
+    font-size: 1.5rem;
+    color: #1a73e8;
+    margin-bottom: 1rem;
+  }
+  
+  .report-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0;
+    border-bottom: 1px solid #ddd;
+    font-size: 1.1rem;
+  }
+  
+  .report-item:last-child {
+    border-bottom: none;
+  }
+  
+  .report-item span {
+    flex: 1;
+    text-align: left;
+  }
+  
+  .report-item span:nth-child(2) {
+    text-align: right;
+  }
+  
+  .report-item:hover {
+    background-color: #f0f0f0;
+    cursor: pointer;
+  }
+  

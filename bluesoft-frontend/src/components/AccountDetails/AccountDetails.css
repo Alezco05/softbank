@@ -1,0 +1,54 @@
+.account-details-container {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+    width: 80%;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .balance {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .transactions {
+    margin-bottom: 20px;
+  }
+  
+  .transactions ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .transaction-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s;
+  }
+  
+  .transaction-item:hover {
+    background-color: #e0f7fa;
+  }
+  
+  .transaction-type {
+    font-weight: bold;
+  }
+  
+  .transaction-type.deposit {
+    color: green;
+  }
+  
+  .transaction-type.withdrawal {
+    color: red;
+  }
+  
